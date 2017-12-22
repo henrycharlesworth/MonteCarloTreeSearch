@@ -16,9 +16,15 @@ What needs to be provided:
   - A function assignRewards(state) that evaluates the terminal state and determines which player won.
 
 e.g. usage:
+
 currentGame Game(state);
+
 Game.initialize;
+
 Game.playNGames(N);
+
 A moveToMake = Game.bestInitialAction();
+
 Game.cleanUp();
+
 Game.playNGames(N); //play again from the next state that's actually been chosen.
