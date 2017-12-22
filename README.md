@@ -6,14 +6,14 @@ I made this mainly to get some practice using the c++ standard template library 
 Main.cpp has an example of using the template with a simple implementation of a tic tac toe game.
 
 What needs to be provided:
-	- A class for the game state. should include an integer denoting players go (0,1,...) in variable plyrsGo
+  - A class for the game state. should include an integer denoting players go (0,1,...) in variable plyrsGo
   - A class for the possible actions. (probably easiest to use an integer in many cases).
   - A function getActions(state) (returns vector of actions available)
   - A function getNextState(state, int)
   - A function defaultPolicy(state, vector<int> actions)
-	- A function selectionEvaluation(double,int, int) that evaluates how we select "intelligently" (e.g. UCB1)
-	- A function isTerminal(state)
-	- A function assignRewards(state) that evaluates the terminal state and determines which player won.
+  - A function selectionEvaluation(double,int, int) that evaluates how we select "intelligently" (e.g. UCB1)
+  - A function isTerminal(state)
+  - A function assignRewards(state) that evaluates the terminal state and determines which player won.
 
 e.g. usage:
 		currentGame Game(state);
