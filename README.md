@@ -1,7 +1,7 @@
 # Monte Carlo Tree Search Implementation
 Somewhat general implementation of Monte Carlo Tree Search. Only for games that the rewards are all provided at the termination of the game (could easily be adapted though).
 Note: final rewards should have |r| <= 1. Need to provide a number of functions to define the game logic.
-I made this mainly to get some practice using the c++ standard template library and as such have made no attempt to ensure that the code is particularly efficient. As such there are probably much faster implementations of the algorithm out there!
+I made this mainly to get some practice using the c++ standard template library and as such have made no attempt to ensure that the code is particularly efficient. There are likely to be much faster implementations of the algorithm out there!
 
 Main.cpp has an example of using the template with a simple implementation of a tic tac toe game.
 
